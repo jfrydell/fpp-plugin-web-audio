@@ -1,0 +1,32 @@
+{
+	"repoName": "fpp-web-audio",
+	"name": "Fpp Web Audio",
+	"author": "Fletch Rydell",
+	"description": "FPP Plugin to play audio through a web browser.",
+	"homeURL": "https://github.com/FalconChristmas/fpp-plugin-Template",
+	"srcURL": "https://github.com/FalconChristmas/fpp-plugin-Template.git",
+	"bugURL": "https://github.com/FalconChristmas/fpp-plugin-Template/issues",
+	"allowUpdates": 1,
+	"versions": [
+		{
+			"minFPPVersion": "2.0",
+			"maxFPPVersion": "0",
+			"branch": "master",
+			"sha": "",
+			"dependencies": {
+			    "plugins": [
+					"fpp-plugin-CoolPlugin1",
+					"fpp-plugin-CoolPlugin2"
+				],
+			    "packages": [
+					"system-package-name1",
+					"system-package-name2"
+				],
+				"scripts": [
+					"Control/script-repository-script1",
+					"PixelOverlay/script-repository-script2"
+				]
+			}
+		}
+	]
+}
