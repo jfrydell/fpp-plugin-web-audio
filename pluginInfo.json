@@ -1,8 +1,8 @@
 {
 	"repoName": "fpp-plugin-web-audio",
-	"name": "FPP Plugin to access audio from a website",
+	"name": "FPP Web Audio",
 	"author": "Fletch Rydell",
-	"description": "This template plugin is designed to make it easier for plugin authors to create new FPP Plugins.  You can manually clone the git repository or install the Template Plugin and then go to the plugin's config page and use the form to copy the template into a new plugin directory.",
+	"description": "Plugin to access FPP Audio from a website.",
 	"homeURL": "https://github.com/jfrydell/fpp-plugin-web-audio/",
 	"srcURL": "https://github.com/jfrydell/fpp-plugin-web-audio.git",
 	"bugURL": "https://github.com/jfrydell/fpp-plugin-web-audio/issues",
