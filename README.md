@@ -1,2 +1,3 @@
 # fpp-plugin-web-audio
- Fpp plugin to play audio through webpage.
+Plugin to help play audio through a website
+

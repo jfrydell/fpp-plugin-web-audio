@@ -1,9 +1,9 @@
 {
 	"repoName": "fpp-plugin-web-audio",
-	"name": "Fpp Web Audio",
+	"name": "FPP Plugin to access audio from a website",
 	"author": "Fletch Rydell",
-	"description": "FPP Plugin to play audio through a web browser.",
-	"homeURL": "https://github.com/jfrydell/fpp-plugin-web-audio",
+	"description": "This template plugin is designed to make it easier for plugin authors to create new FPP Plugins.  You can manually clone the git repository or install the Template Plugin and then go to the plugin's config page and use the form to copy the template into a new plugin directory.",
+	"homeURL": "https://github.com/jfrydell/fpp-plugin-web-audio/",
 	"srcURL": "https://github.com/jfrydell/fpp-plugin-web-audio.git",
 	"bugURL": "https://github.com/jfrydell/fpp-plugin-web-audio/issues",
 	"allowUpdates": 1,
@@ -11,7 +11,16 @@
 		{
 			"minFPPVersion": "2.0",
 			"maxFPPVersion": "0",
-			"branch": "master"
+			"branch": "master",
+			"sha": "",
+			"dependencies": {
+			    "plugins": [
+				],
+			    "packages": [
+				],
+				"scripts": [
+				]
+			}
 		}
 	]
 }
