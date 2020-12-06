@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# fpp-plugin-Template uninstall script
+# fpp-web-audio uninstall script
 

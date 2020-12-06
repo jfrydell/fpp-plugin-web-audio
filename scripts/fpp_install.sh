@@ -1,4 +1,8 @@
 #!/bin/bash
 
-# fpp-plugin-Template install script
+# fpp-web-audio install script
 
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+cd ..
+make
