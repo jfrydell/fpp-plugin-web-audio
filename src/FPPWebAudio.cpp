@@ -219,13 +219,7 @@ public:
     }
 	
     virtual void addControlCallbacks(std::map<int, std::function<bool(int)>> &callbacks) {
-        if (enabled && getFPPmode() == REMOTE_MODE) {
-            plugin->addControlCallbacks(callbacks);
-            if (plugin->bridgeToLocal) {
-                //if we're bridging the multisync, we need to have the control sockets open
-                multiSync->OpenControlSockets();
-            }
-        }
+        
     }
 };
 
