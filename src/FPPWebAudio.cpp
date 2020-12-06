@@ -202,6 +202,9 @@ public:
     WebAudioMultiSyncPlugin *plugin = new WebAudioMultiSyncPlugin();
     bool enabled = true;
 	
+    WebAudioFPPPlugin() : FPPPlugin("WebAudio") {
+        enabled = true;
+    }
     virtual ~WebAudioFPPPlugin() {}
     
     void registerApis(httpserver::webserver *m_ws) {
